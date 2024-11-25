@@ -1,0 +1,100 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 16px
+}
+
+body,
+html {
+	height: 100%;
+	width: 100%;
+	/* overflow-x: hidden; */
+	background-color: #F2F2F2;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.footerProtoLink {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+	text-align: start;
+}
+
+ul.maxValue>li {
+	padding-block: 1px;
+}
+
+.excludedColumn,
+.excludedValue {
+	padding-block: 3px;
+}
+
+ul.maxValue {
+	margin-left: 5px;
+}
+
+.main.container {
+	margin-top: 60px;
+}
+
+.maxValueDiv {
+	margin-left: 40px;
+}
+
+ul {
+	padding: 0%;
+}
+
+li.col-sm-4 {
+	max-height: 200px;
+	overflow: auto;
+
+}
+
+.uploadBtnWrapper.col-md-1 {
+	margin-top: 30px;
+}
+
+.noteTxt {
+	padding: 2px 8px 5px 10px;
+}
+
+p.footerTextWrapper {
+	vertical-align: middle;
+	margin-bottom: 0px !important;
+	font-size: medium;
+}
+
+/* WebKit-based browsers */
+
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+
+ul.row .col-sm-2 {
+	margin: 10px;
+	width: 232px;
+}
+
+.mb-101 {
+	margin-bottom: -108px;
+}
